@@ -1,7 +1,9 @@
 <template>
   <div class="wrapper">
     <h1>{{ msg }}</h1>
-    <img class="mt-2 mb-12" alt="Santa logo" src="../assets/logo.png">
+    <div class="mt-2 mb-12">
+      <img alt="Santa logo" src="../assets/logo.png">
+    </div>
     <button @click="toCreateListPage" class="btn mb-8">Создать список</button>
     <div>
       <button class="rules-button" @click="toRulesInfoPage">
@@ -38,6 +40,7 @@ export default {
   padding: 15px;
   background: rgb(181,188,255);
   background: linear-gradient(90deg, rgba(181,188,255,1) 0%, rgba(205,210,255,1) 100%);
+  text-align: center;
 }
 
 .btn {

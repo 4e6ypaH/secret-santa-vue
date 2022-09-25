@@ -23,6 +23,16 @@ const routes = [
     name: 'rules-info',
     component: () => import('../views/RulesInfo.vue')
   },
+  {
+    path: '/about-page',
+    name: 'about-page',
+    component: () => import('../views/AboutPage.vue')
+  },
+  {
+    path: '/finish-page',
+    name: 'finish-page',
+    component: () => import('../views/FinishPage.vue')
+  },
 ]
 
 const router = new VueRouter({
